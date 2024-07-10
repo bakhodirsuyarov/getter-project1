@@ -1,0 +1,161 @@
+.middletop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #327770;
+  margin-top: -133px;
+}
+
+.middletop-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 473px;
+  flex-direction: column;
+  /* padding-bottom: 500px */
+  position: relative;
+}
+
+.middletop-content {
+  margin-bottom: 150px;
+}
+
+.middletop-title {
+  color: #fff;
+  text-align: center;
+  font-size: 60.779px;
+  font-weight: 500;
+  line-height: 78.387px;
+  text-transform: uppercase;
+}
+
+.middletop-text {
+  color: #fff;
+  font-size: 42.281px;
+  font-weight: 500;
+  line-height: 54.53px;
+  text-transform: capitalize;
+}
+
+.middletop-list_wrapper {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.item {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  border: 1px solid rgba(148, 148, 148, 0.8);
+}
+
+.list1-item {
+  text-align: right;
+  border-left: none;
+  border-bottom: none;
+  padding: 44px 33px 44px;
+  position: relative;
+}
+
+.list1-item::after {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  background-image: url(../../assets//img/Star.svg);
+  top: -34px;
+  left: 365px;
+  z-index: 1;
+}
+
+.list2-item {
+  text-align: center;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 44px 71px;
+  position: relative;
+}
+
+.list2-item::after {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  background-image: url(../../assets//img//Star.svg);
+  top: -34px;
+  left: 322px;
+  z-index: 1;
+}
+
+.list3-item {
+  text-align: left;
+  border-right: none;
+  border-bottom: none;
+  padding: 44px 33px;
+}
+
+.bottom-item {
+  border-bottom: 1px solid rgba(148, 148, 148, 0.8);
+}
+
+.item-star1::before {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  background-image: url(../../assets/img/Star.svg);
+  top: 85px;
+  left: 365px;
+  z-index: 1;
+}
+
+.item-star2::before {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  background-image: url(../../assets/img/Star.svg);
+  top: 85px;
+  left: 322px;
+  z-index: 1;
+}
+
+.middletop-span {
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  background-color: rgba(148, 148, 148, 0.8);
+}
+
+.span1 {
+  top: 686px;
+  left: 401px;
+}
+
+.span2 {
+  top: 1262px;
+  left: 401px;
+}
+
+.span3 {
+  top: 686px;
+  left: 757px;
+}
+
+.span4 {
+  top: 1143px;
+  left: 757px;
+}
+
+.middletop-span2 {
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  background-color: rgba(148, 148, 148, 0.8);
+  top: 1232px;
+  left: 431px;
+}

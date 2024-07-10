@@ -1,0 +1,72 @@
+.middlebottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.middlebottom-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  padding-top: 161px;
+  padding-bottom: 180px;
+  position: relative;
+}
+
+.middlebottom-title {
+  color: #000;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 70.3px;
+  text-transform: capitalize;
+  margin-bottom: 62px;
+  width: 650px;
+}
+
+.middlebottom-title::after {
+  content: "";
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  background-image: url(../../assets//img/middlebottom1.png);
+  top: 227px;
+  left: 424px;
+}
+
+.middlebottom-description {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.112px;
+  text-transform: capitalize;
+  margin-bottom: 160px;
+}
+
+.middlebottom-text {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30.953px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 511px;
+}
+
+.middlebottom-text::after {
+  content: "";
+  position: absolute;
+  width: 195px;
+  height: 210px;
+  background-image: url(../../assets/img/middlebottom-insta.png);
+  top: 470px;
+  left: 474px;
+  z-index: 1;
+}
+
+.middlebottom-img {
+  position: absolute;
+  left: 551px;
+  top: 189px;
+  z-index: -1;
+}
