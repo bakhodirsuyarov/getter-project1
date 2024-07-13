@@ -79,11 +79,14 @@
 }
 
 .footer-top_item {
+  padding-right: 25px;
+}
+
+.footer-top_item a {
   color: #e7ebeb;
   font-size: 17px;
   font-weight: 400;
   line-height: normal;
-  padding-right: 25px;
 }
 
 .footer-top_item:last-child {

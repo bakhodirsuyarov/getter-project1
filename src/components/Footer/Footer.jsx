@@ -14,10 +14,18 @@ export default function Footer() {
               difficulties
             </h3>
             <ul className="footer-top_list">
-              <li className="footer-top_item">HOME</li>
-              <li className="footer-top_item">FEATURED</li>
-              <li className="footer-top_item">SERVICES</li>
-              <li className="footer-top_item">ABOUT US</li>
+              <li className="footer-top_item">
+                <a href="!#">HOME</a>
+              </li>
+              <li className="footer-top_item">
+                <a href="!#">FEATURED</a>
+              </li>
+              <li className="footer-top_item">
+                <a href="!#">SERVICES</a>
+              </li>
+              <li className="footer-top_item">
+                <a href="!#">ABOUT US</a>
+              </li>
             </ul>
           </div>
           <div className="footer-bottom">

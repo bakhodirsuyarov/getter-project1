@@ -31,7 +31,7 @@
   height: 155px;
   background-image: url(../../assets//img/middlebottom1.png);
   top: 227px;
-  left: 424px;
+  left: 430px;
 }
 
 .middlebottom-description {
@@ -53,20 +53,39 @@
   max-width: 511px;
 }
 
-.middlebottom-text::after {
-  content: "";
-  position: absolute;
-  width: 195px;
-  height: 210px;
-  background-image: url(../../assets/img/middlebottom-insta.png);
-  top: 470px;
-  left: 474px;
-  z-index: 1;
-}
-
 .middlebottom-img {
   position: absolute;
   left: 551px;
   top: 189px;
   z-index: -1;
+}
+
+.middle-insta_wrapper {
+  position: absolute;
+  top: 477px;
+  left: 488px;
+}
+
+.middle-instaBox {
+  position: relative;
+}
+
+.middle-insta {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  animation: textRotation 10s linear infinite;
+}
+
+@keyframes textRotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.middle-insta_icon {
+  position: absolute;
+  left: 55px;
+  top: 53px;
+  z-index: 1;
 }

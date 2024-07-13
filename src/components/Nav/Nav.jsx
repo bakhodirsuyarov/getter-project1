@@ -33,7 +33,6 @@ export default function Nav() {
           </li>
         </ul>
         <div className="nav-btn">
-          <span className="nav-circle"></span>
           <a className="nav-tel" href="tel:+990000000">
             +(99) 000 00 00
           </a>

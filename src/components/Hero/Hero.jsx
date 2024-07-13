@@ -9,7 +9,7 @@ export default function Hero() {
         <h1 className="hero-title">Find Your Confort in Tashkent</h1>
         <h2 className="hero-description">buy and sell real estate</h2>
         <div className="hero-btn_box">
-          <button className="hero-btn">with Murod</button>
+          <h2 className="hero-btn">with ------</h2>
         </div>
         <p className="hero-text">
           Whether you are looking to buy or sell, we know great homes in
