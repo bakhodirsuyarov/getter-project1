@@ -1,10 +1,12 @@
 import React from "react";
 import "./MiddleTop.css";
+import ProvideCard from "../ProvideCard/ProvideCard";
 
 export default function MiddleTop() {
   return (
     <div className="middletop">
       <div className="middletop-wrapper">
+        <ProvideCard />
         <div className="middletop-content">
           <h2 className="middletop-title">10 reasons </h2>
           <h3 className="middletop-text">why you should choose us</h3>

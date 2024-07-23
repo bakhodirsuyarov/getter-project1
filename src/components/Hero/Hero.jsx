@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { icons } from "../../utilits/icons";
+import ProvideCard from "../ProvideCard/ProvideCard";
 
 export default function Hero() {
   return (
@@ -20,29 +21,6 @@ export default function Hero() {
           We Provide <br />
           the Best Property for You
         </h3>
-
-        <ul className="provide-list">
-          <li className="provide-item item1">
-            <div className="provide-icon">{icons.icon1}</div>
-            <p className="provide-text">
-              Commercial and residensial objects including all services.
-            </p>
-          </li>
-          <li className="provide-item item2">
-            <div className="provide-icon">{icons.icon1}</div>
-            <p className="provide-text">
-              Beautifully designed, furnished private rooms, apartments,
-              cottages and villas with flexible prices.
-            </p>
-          </li>
-          <li className="provide-item item3">
-            <div className="provide-icon">{icons.icon1}</div>
-            <p className="provide-text">
-              We will find a customer and housing right during the construction
-              of the facility.
-            </p>
-          </li>
-        </ul>
       </div>
     </div>
   );

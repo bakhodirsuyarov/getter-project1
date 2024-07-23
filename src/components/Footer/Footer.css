@@ -61,7 +61,7 @@
   background-color: #282828;
   padding: 30px 20px;
   width: 100%;
-  max-width: 714px;
+  max-width: 720px;
   margin-top: 87px;
   margin-bottom: 137px;
   margin-left: 200px;
@@ -125,4 +125,113 @@
 
 .footer-bottom_item:last-child {
   padding-right: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-inner {
+    margin-right: 20px;
+  }
+
+  .footer-title {
+    font-size: 26px;
+    margin-left: 110px;
+    line-height: 40px;
+  }
+
+  .footer-home {
+    left: 841px;
+  }
+
+  .footer-top::before {
+    left: 793px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-content_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-title {
+    margin-left: 10px;
+    width: 100%;
+    margin-bottom: 100px;
+    /* margin-right: 20px; */
+  }
+  .footer-home {
+    left: 611px;
+    top: 241px;
+  }
+  .footer-top {
+    margin-bottom: 60px;
+  }
+  .footer-top::before {
+    left: 511px;
+    top: 318px;
+  }
+  .footer-top_list {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+  }
+  .footer-top_item {
+    padding-bottom: 25px;
+    padding-right: 0px;
+  }
+  .footer-top_item:last-child {
+    padding-bottom: 0px;
+  }
+  .footer-bottom {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  .footer-bottom_list {
+    margin-bottom: 44px;
+  }
+  .footer-text {
+    margin-left: 0px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .footer-title {
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 30px;
+  }
+  .footer-top_list {
+    width: 300px;
+  }
+  .footer-top::before {
+    left: 331px;
+  }
+  .footer-home {
+    left: 445px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .footer-home {
+    left: 358px;
+  }
+  .footer-top::before {
+    left: 264px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .footer-top::before {
+    left: 217px;
+    top: 308px;
+  }
+  .footer-home {
+    left: 293px;
+    top: 252px;
+  }
 }

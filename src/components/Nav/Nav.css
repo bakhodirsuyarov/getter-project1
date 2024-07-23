@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 50px;
-  margin-bottom: 135px;
+  margin-bottom: 130px;
 }
 
 .nav-logo_link {
@@ -33,6 +33,7 @@
 .nav-item {
   margin-right: 42px;
 }
+
 .nav-item:last-child {
   margin-right: 0;
 }
@@ -50,34 +51,61 @@
   color: #ffffff;
 }
 
-.nav-tel {
+.hamburger-btn {
+  display: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
   color: #000;
-  text-align: center;
+  cursor: pointer;
+}
+
+.nav-logo_link {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
   font-size: 18px;
-  font-weight: 500;
-  line-height: 22px;
-  padding: 21px 30px;
-  background-color: #fff;
-  border: 1px solid #000;
-  border-radius: 50px;
-  transition: 0.5s;
-  /* opacity: 0.54; */
 }
 
-.nav-tel:hover {
-  background-color: #b2fce3;
+.hamburger-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
-.nav-btn {
-  position: relative;
+.hamburger-btn img {
+  width: 24px;
+  height: 24px;
 }
 
-.nav-circle {
-  width: 10px;
-  height: 10px;
-  background-color: #000;
-  border-radius: 50%;
-  position: absolute;
-  top: -12px;
-  left: 38px;
+@media only screen and (max-width: 1000px) {
+  .nav-wrapper {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-list {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .hamburger-btn {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .nav-wrapper {
+    margin-bottom: 100px;
+  }
 }

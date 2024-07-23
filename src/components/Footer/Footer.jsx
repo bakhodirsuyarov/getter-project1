@@ -9,10 +9,12 @@ export default function Footer() {
         <div className="footer-inner">
           <div className="footer-top">
             <div className="footer-home">{icons.home}</div>
-            <h3 className="footer-title">
-              invest in your calm future and find your dream house without any
-              difficulties
-            </h3>
+            <div className="footer-content_wrapper">
+              <h3 className="footer-title">
+                invest in your calm future and find your dream house without any
+                difficulties
+              </h3>
+            </div>
             <ul className="footer-top_list">
               <li className="footer-top_item">
                 <a href="!#">HOME</a>

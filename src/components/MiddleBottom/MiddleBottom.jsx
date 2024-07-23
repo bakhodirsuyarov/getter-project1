@@ -15,15 +15,16 @@ export default function MiddleBottom() {
           <h3 className="middlebottom-description">
             more then 500 satisfied customers
           </h3>
+          <div>
+            <img className="middlebottom-img" src={ManImg} alt="man" />
+          </div>
           <p className="middlebottom-text">
             We are a dominant in the market of uzbekistan and we have almosta
             million followers on the instagram blog, where we provide
             spectacular reportsof our brilliant work.
           </p>
         </div>
-        <div>
-          <img className="middlebottom-img" src={ManImg} alt="man" />
-        </div>
+
         <div className="middle-insta_wrapper">
           <div className="middle-instaBox">
             <span className="middle-insta_icon">{icons.instagramWhite}</span>
